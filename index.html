@@ -7,6 +7,49 @@
     <title>My Personal Website</title>
 </head>
 <body>
-    <h1>Hello World ! </h1>
+    <div class="container">
+    <header>
+    <nav class="navlinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        
+    </nav>
+    <div class="introduction">
+    <h1>Hey there, </h1>
+    <h2>Welcome to my website ♥ </h2>
+    </div>
+</header>
+<!-----About us  Section-->
+<section id="about" class="about">
+<h2>About Me</h2>
+<p>My name is Joan Kori. <strong>I am a Software Developer. </strong>I love integrating AI into my projects.
+     I have experience working with HTML,CSS, Js and Laravel framework. Coding is fun </p>
+     <p>AI is revolutionizing software development, enabling developers to create smarter and more adaptive solutions
+         across industries. In healthcare, IBM Watson assists doctors in diagnosing diseases by analyzing vast medical data,
+          while in finance, AI-powered fraud detection systems like those used by PayPal help prevent suspicious 
+          transactions. Autonomous vehicles, such as Tesla’s self-driving cars, leverage AI for real-time decision-making
+           on the road.</p>
+</section>
+<!----Services  Section-->
+<section id="projects" class="section">
+    <h2>My projects</h2>
+    <div class="grid">
+    <img src="images/AGRIGUIDE logo.png" alt="Image of Agriguide Ai logo">
+    <img src="images/Admindashboard.PNG" alt="Image of the Hostel Management System">
+    </div>
+</section> 
+<!--contact us-->
+<section id="contact" class="contact-form">
+    <h2>Contact Me</h2>
+    <form action="">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <!--Text area is not put as input tag because we need alot of text(for message)-->
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send Message</button>
+    </form>
+</section>
+</div>
 </body>
 </html>
